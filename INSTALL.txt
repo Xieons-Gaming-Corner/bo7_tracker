@@ -1,0 +1,31 @@
+XGC RELIC ARTWORK UPDATE — ADDITIVE PATCH
+
+This adds artwork to your existing build 3 application WITHOUT replacing or shortening any guides. No GitHub changes have been made automatically.
+
+INSTALL (MANUAL — TWO STEPS)
+1. Add relic-artwork.js to the repository root beside index.html.
+2. In index.html, insert this line immediately BEFORE </body>, after the existing tracker script:
+
+<script src="./relic-artwork.js?v=1" defer data-xgc-relic-artwork></script>
+
+Commit both files with your assets. After deployment, hard refresh.
+
+OPTIONAL AUTOMATIC LOCAL INSTALLER
+Copy apply_artwork_update.py and relic-artwork.js beside your existing index.html, then run:
+python apply_artwork_update.py
+The installer backs up index.html as index.before-artwork.html and inserts the loader once. It does not contact GitHub or push anything. Do not deploy the backup unless you want it publicly accessible.
+
+ASSET PATHS
+Paths are relative to the app, never to a GitHub blob URL or a branch. The same code therefore works after merging to main.
+Relics: ./assets/relics/relic_<name>.webp, then .png.
+Portals: ./assets/portals/grim.png, sinister.png, wicked.png; WebP alternatives are tried too. Sinister also tries siniter.png and siniter.webp.
+
+Exact-name aliases cover the existing relic_Agarthan_Device.webp and relic_matryoshkadoll.webp filenames. Apostrophe and wrestling-belt variants are supported. Normalized names use underscores, e.g. relic_music_box.webp or relic_music_box.png.
+
+If all image candidates fail, the image is hidden; the relic name and difficulty text remain usable. Missing art does not prevent the tracker or guides from working. Browsers may still show 404 requests in DevTools while testing missing candidates; this is expected fallback behavior, not a tracker exception.
+
+ASSET AUDIT
+The checked wip_relics_add branch listed 13 relic image files for 12 distinct relics (Film Reel has both formats). Its assets root contained relics/ and toys/, but no portals/ folder at inspection time. Add assets/portals/ and your difficulty images so those badges can display. Images themselves are NOT bundled in this patch; retain/merge your existing assets.
+
+CHECKBOX BEHAVIOR
+Artwork and difficulty badges are outside completion labels, so clicking images does not mark a relic complete. Mode switching and map filters keep their existing behavior. Weapon entries are unchanged.

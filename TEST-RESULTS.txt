@@ -1,0 +1,9 @@
+Headless Chromium tests with representative tracker markup and mocked images; not the deployed site.
+
+PASS: exact filenames for Music Box, Agarthan Device, Matryoshka Doll.
+PASS: WebP-to-PNG relic fallback.
+PASS: sinister-to-siniter portal fallback.
+PASS: missing art hidden without JavaScript errors.
+PASS: artwork clicks do not toggle checkboxes; checkbox and guide still work.
+PASS: dynamic re-render support and duplicate-install guard.
+PASS: no horizontal overflow at 390px fixture viewport.
