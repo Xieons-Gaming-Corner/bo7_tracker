@@ -1,13 +1,27 @@
-BUILD 4 — REPLACE ONLY INDEX.HTML
+XGC OPERATOR SKINS MODE — 45 OWNER-SUPPLIED UNLOCKS
 
-Overwrite your repository-root index.html with the attached index.html.
-Keep .nojekyll and your assets/relics/ and assets/portals/ folders.
-After deployment, hard refresh with Ctrl+Shift+R and select All Relics Tracker.
+This is an additive update for the existing build 3/build 4 tracker. It does not replace your current guides, artwork, or application logic.
 
-Artwork support is built directly into this HTML file. It does not load app.js, data.js, styles.css, or relic-artwork.js. Existing copies may remain but are unused by this page. No installer or manual script insertion is required.
+RECOMMENDED INSTALL: EMBED INTO YOUR EXISTING INDEX.HTML
+1. Extract add_operator_skins.py and operator-skins.js into the folder containing your current index.html.
+2. Run: python add_operator_skins.py
+3. The installer updates that index.html and keeps index.before-skins.html as a backup.
+4. Upload ONLY the updated index.html to your repository and wait for deployment. Hard refresh afterward.
 
-All application data, CSS, and JavaScript are embedded. Image files are external relative assets, not bundled. Relic names and tier text remain visible if artwork is missing. PNG/WebP fallback and existing filename aliases are included.
+The installer embeds all operator code/data in index.html. You do not need to upload operator-skins.js or the Python installer for the embedded version. Keep your existing assets and .nojekyll. Do not upload your backup unless you want it public.
 
-Includes 18 belt weapons, 30 relics, portal-opening summaries and expanded trial-guide drafts, six Dragon Egg stages, one shared completion disclaimer, independent session-only progress, filters and reset. Draft verification notes remain. Gameplay details were not newly reverified for this packaging update.
+ALTERNATIVE: SCRIPT INCLUDE
+Upload operator-skins.js beside index.html, then insert this immediately before </body>, AFTER the existing application scripts:
+<script src="./operator-skins.js?v=1" defer></script>
+Use either this method OR the embed installer, not both.
 
-Browser tests used Chromium with mocked asset responses and the complete generated application, not the live deployed site.
+FEATURES
+Third Operator Skins mode; 45 entries (44 skins plus The Warden operator); independent session-only progress; operator and category filters; remaining-only; separate reset; expandable requirements. Requirements come from the user's supplied checklist, not an external verification pass. The Warden is explicitly an operator unlock. No skin artwork filenames have been assumed or added. No game/account integration or permanent saving.
+
+PACKAGE CONTENTS
+operator-skins.js — add-on code and data
+add_operator_skins.py — embeds the add-on into YOUR existing complete application
+operator-unlocks.json — editable reference data (not loaded at runtime)
+TEST-RESULTS.txt — browser and installer checks
+
+The package intentionally does not include a replacement index.html: the installer preserves your exact current application instead of recreating or downgrading it. Browser tests used representative tracker markup and event handling, not the live deployed page.

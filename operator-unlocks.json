@@ -1,0 +1,362 @@
+[
+  {
+    "id": "skin-1",
+    "operator": "Maya",
+    "name": "Trophy Collector",
+    "category": "BO6 Carry-Forward",
+    "requirement": "Complete the BO6 Terminus Main Quest; carries forward to BO7.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-2",
+    "operator": "Weaver",
+    "name": "Jackknife",
+    "category": "BO6 Carry-Forward",
+    "requirement": "Complete the BO6 Citadelle des Morts Main Quest; carries forward to BO7.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-3",
+    "operator": "Carver",
+    "name": "PhDeadly",
+    "category": "BO6 Carry-Forward",
+    "requirement": "Complete the BO6 Shattered Veil Main Quest; carries forward to BO7.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-4",
+    "operator": "Grey",
+    "name": "Blood, Sweat, an’ Gears",
+    "category": "BO6 Carry-Forward",
+    "requirement": "Complete the BO6 Reckoning Main Quest; carries forward to BO7.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-5",
+    "operator": "Mason",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Mason.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-6",
+    "operator": "Samuels",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Samuels.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-7",
+    "operator": "Anderson",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Anderson.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-8",
+    "operator": "Wei Lin",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Wei Lin.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-9",
+    "operator": "Vermaak",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Vermaak.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-10",
+    "operator": "Zaveri",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Zaveri.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-11",
+    "operator": "Jurado",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Jurado.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-12",
+    "operator": "Grimm",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Grimm.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-13",
+    "operator": "Falkner",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Falkner.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-14",
+    "operator": "Razor",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Razor.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-15",
+    "operator": "Kagan",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as Kagan.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-16",
+    "operator": "50/50",
+    "name": "No Fear",
+    "category": "Endgame — No Fear",
+    "requirement": "Defeat the Endgame final boss and escape as 50/50.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-17",
+    "operator": "Dempsey",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Dempsey.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-18",
+    "operator": "Nikolai",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Nikolai.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-19",
+    "operator": "Takeo",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Takeo.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-20",
+    "operator": "Richtofen",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Richtofen.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-21",
+    "operator": "Maya",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Maya.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-22",
+    "operator": "Weaver",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Weaver.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-23",
+    "operator": "Carver",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Carver.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-24",
+    "operator": "Grey",
+    "name": "Memento Mori",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush as Grey.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-25",
+    "operator": "Maya",
+    "name": "Bushwalker",
+    "category": "Directed Mode",
+    "requirement": "Complete Ashes of the Damned in Directed Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-26",
+    "operator": "Grey",
+    "name": "Cosmic Repair",
+    "category": "Directed Mode",
+    "requirement": "Complete Astra Malorum in Directed Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-27",
+    "operator": "Weaver",
+    "name": "Dead Man’s Drip",
+    "category": "Directed Mode",
+    "requirement": "Complete Totenreich in Directed Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-28",
+    "operator": "Carver",
+    "name": "Yōjinbō",
+    "category": "Directed Mode",
+    "requirement": "Complete Kowakujō in Directed Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-29",
+    "operator": "The Warden",
+    "name": "Operator Unlock",
+    "category": "Rex Infernus",
+    "requirement": "Complete the Rex Infernus Super Easter Egg boss rush.",
+    "kind": "Operator unlock"
+  },
+  {
+    "id": "skin-30",
+    "operator": "Vermaak",
+    "name": "Firewall",
+    "category": "Glitch Boss — Firewall",
+    "requirement": "Defeat the Root Crasher Glitch Boss as Vermaak.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-31",
+    "operator": "Wei Lin",
+    "name": "Firewall",
+    "category": "Glitch Boss — Firewall",
+    "requirement": "Defeat the Root Crasher Glitch Boss as Wei Lin.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-32",
+    "operator": "Anderson",
+    "name": "Firewall",
+    "category": "Glitch Boss — Firewall",
+    "requirement": "Defeat the Root Crasher Glitch Boss as Anderson.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-33",
+    "operator": "Karma",
+    "name": "Firewall",
+    "category": "Glitch Boss — Firewall",
+    "requirement": "Defeat the Root Crasher Glitch Boss as Karma.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-34",
+    "operator": "Grimm",
+    "name": "Override",
+    "category": "Glitch Boss — Override",
+    "requirement": "Defeat the Link Forger Glitch Boss in Operation Poison Pill as Grimm.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-35",
+    "operator": "Mason",
+    "name": "Override",
+    "category": "Glitch Boss — Override",
+    "requirement": "Defeat the Link Forger Glitch Boss in Operation Poison Pill as Mason.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-36",
+    "operator": "Anderson",
+    "name": "Override",
+    "category": "Glitch Boss — Override",
+    "requirement": "Defeat the Link Forger Glitch Boss in Operation Poison Pill as Anderson.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-37",
+    "operator": "Vermaak",
+    "name": "Aftershock",
+    "category": "Glitch Boss — Aftershock",
+    "requirement": "Defeat the Virus Injection Glitch Boss in Operation Broken Mirror as Vermaak.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-38",
+    "operator": "Zaveri",
+    "name": "Aftershock",
+    "category": "Glitch Boss — Aftershock",
+    "requirement": "Defeat the Virus Injection Glitch Boss in Operation Broken Mirror as Zaveri.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-39",
+    "operator": "Jurado",
+    "name": "Aftershock",
+    "category": "Glitch Boss — Aftershock",
+    "requirement": "Defeat the Virus Injection Glitch Boss in Operation Broken Mirror as Jurado.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-40",
+    "operator": "50/50",
+    "name": "Shatter Shock",
+    "category": "Glitch Boss — Shatter Shock",
+    "requirement": "Defeat the Command Killer Glitch Boss in Operation Wall Breaker as 50/50.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-41",
+    "operator": "Razor",
+    "name": "Shatter Shock",
+    "category": "Glitch Boss — Shatter Shock",
+    "requirement": "Defeat the Command Killer Glitch Boss in Operation Wall Breaker as Razor.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-42",
+    "operator": "Falkner",
+    "name": "Shatter Shock",
+    "category": "Glitch Boss — Shatter Shock",
+    "requirement": "Defeat the Command Killer Glitch Boss in Operation Wall Breaker as Falkner.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-43",
+    "operator": "Samuels",
+    "name": "Data Freeze",
+    "category": "Glitch Boss — Data Freeze",
+    "requirement": "Defeat the Prime Target Glitch Boss in Operation King Killer as Samuels.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-44",
+    "operator": "Wei Lin",
+    "name": "Data Freeze",
+    "category": "Glitch Boss — Data Freeze",
+    "requirement": "Defeat the Prime Target Glitch Boss in Operation King Killer as Wei Lin.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-45",
+    "operator": "Kagan",
+    "name": "Data Freeze",
+    "category": "Glitch Boss — Data Freeze",
+    "requirement": "Defeat the Prime Target Glitch Boss in Operation King Killer as Kagan.",
+    "kind": "Operator skin"
+  }
+]

@@ -1,14 +1,10 @@
-Chromium browser tests (mocked image responses):
-
-PASS: 18 belt weapons and 30 relics render.
-PASS: All 30 trial sections render; Dragon Egg includes six stages.
-PASS: All portal tiers display with valid mocked image responses.
-PASS: Relic WebP/PNG fallback and Agarthan/Matryoshka filename aliases work.
-PASS: Missing images are hidden after fallback exhaustion.
-PASS: Project-relative asset paths include the GitHub Pages repository prefix.
-PASS: Artwork clicks do not toggle completion.
-PASS: Mode switching preserves checkbox and open-guide state.
-PASS: Map and remaining-only filters work.
-PASS: Reset is independent between modes.
-PASS: Mobile viewport has no horizontal overflow.
-PASS: Reload resets progress; no JavaScript page errors.
+PASS: 45 unlocks: 44 skins and one operator; owner-supplied text retained.
+PASS: Operator and category filters combine correctly.
+PASS: Warden counted separately from skins.
+PASS: Checkboxes, expanded descriptions, remaining-only and empty state work.
+PASS: Mode switching preserves independent tracker state.
+PASS: Skin reset leaves belt/relic completion intact.
+PASS: Fresh document clears session-only skin progress.
+PASS: 390px fixture viewport has no horizontal overflow.
+PASS: Local installer embeds code, preserves original page, creates backup and prevents duplicate installation.
+PASS: No JavaScript page errors in representative integration fixture.
