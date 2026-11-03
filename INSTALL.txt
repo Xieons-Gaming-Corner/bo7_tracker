@@ -1,10 +1,1 @@
-BUILD 7 — BRANDING, SOCIALS, PRESTIGE AND COMPLETE PAGE
-
-Extract the ZIP into your repository root, replacing index.html and merging the assets folder. Keep your existing assets/relics/, assets/portals/, and .nojekyll. This adds assets/branding/xgc-logo.webp and xgc-community.webp. Deploy and hard-refresh. No installer, extra application scripts or manual edits required.
-
-Source checklist data was extracted from the attached paste.txt. That file ended after data setup without rendering/event code or a closing script. This package supplies a complete initialization and renderer. Existing draft guide data has been retained. Prestige entries bring the total to 47 unlocks: 46 skins and one operator. Counts are calculated dynamically.
-
-SOCIALS
-Discord, YouTube, Twitch, Instagram, TikTok, Snapchat, GitHub and Patreon use saved user-provided links. Kick is shown as link pending because no exact URL was available; no URL was guessed. These are text-labelled platform buttons with initials, not official platform logos. Header/community logos are derived from the uploaded xgc.jpg and xgc_cyber.jpg. The private signed URL is not embedded.
-
-No gameplay verification pass was performed. Guide uncertainty notes remain. Skin pictures are not included. Browser tests use the complete page, real packaged branding images and mocked responses for existing relic/portal assets, not the deployed site.
+Replace index.html at the repository root. Keep .nojekyll and all existing assets, including assets/branding/. Hard-refresh after deployment. All 55 unlocks are embedded in index.html, so no JSON loading step or installer is needed. operator-unlocks.json is the matching reference export, not a runtime dependency. Future JSON-only edits still do not alter the embedded data. Existing relic/trial data, socials and branding paths are retained. Skin art is not included.
