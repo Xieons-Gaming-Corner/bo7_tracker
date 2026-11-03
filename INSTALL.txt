@@ -1,0 +1,16 @@
+XGC TRACKER — SELF-CONTAINED REPAIR
+
+INSTALL
+Replace ONLY index.html in the repository root with the enclosed index.html.
+Keep .nojekyll. Old app.js, data.js and styles.css can remain: this page does not load them.
+After GitHub Pages deployment finishes, hard refresh (Ctrl+Shift+R).
+For a local preview, double-click index.html. No server/build/install is required.
+
+CHANGES
+All CSS, data and JavaScript are embedded in index.html to eliminate the earlier multi-file dependency/mixed-version failure mode. Visible initialization error reporting replaces silent blank rendering. Includes the original 18 belt entries, 30 relic entries, independent checkboxes and expandable descriptions, mode switching, map filtering, separate session progress and reset.
+
+CONTENT
+Relic guides are expanded route summaries, not exhaustive guides for every location/puzzle. Reference links provide additional detail. Original Warden 309 naming retained with a discrepancy warning. Counts and summaries come from the previously supplied package and conversation; game facts were not newly reverified for this packaging repair.
+
+VALIDATION
+Data counts, unique IDs and HTML script targets checked during generation. Browser execution testing is reported separately if performed; do not assume this package has been tested against a live deployment.
