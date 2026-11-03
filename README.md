@@ -1,75 +1,56 @@
-# 🏆 XGC Relic & Wrestling Belt Tracker
+# 🏆 XGC BO7 Zombies Tracker
 
-A free, mobile-friendly checklist and guide hub from Xieon’s Gaming Corner.
+A free, mobile-friendly tracker from Xieon’s Gaming Corner for Black Ops 7 Zombies and Endgame.
 
-Track the 18 weapon requirements for the Wrestling Belt, follow your relic unlock progress, and expand each relic’s guide for portal-opening instructions and trial details—all without an account or application download.
+Track operator skin unlocks, explore relic guides, and keep your Wrestling Belt weapon progress organized—all in your browser.
 
-## 🚀 Open the Tracker
+## 🚀 Start Tracking
 
-[Launch the XGC Relic & Wrestling Belt Tracker](https://xieons-gaming-corner.github.io/wrestling-belt-tracker/)
+[Open the XGC BO7 Zombies Tracker](https://xieons-gaming-corner.github.io/bo7_tracker/)
 
-## ✨ Features
+No account, installation, or application download required.
 
-- Two tracker modes: Relic Belt Tracker and All Relics Tracker.
-- An 18-weapon Wrestling Belt checklist with weapon locations.
-- A 30-relic unlock checklist with map filtering.
-- Expandable guides with relic effects, prerequisites, and portal-opening steps.
-- Trial objectives, modifiers, preparation, strategies, and warnings.
-- Relic artwork where an image is available.
-- Portal-image difficulty badges for Grim, Sinister, and Wicked relics.
-- Completion counts, percentages, and a progress bar.
-- A “Show remaining only” filter.
-- Separate session progress for each tracker mode.
-- Mobile-friendly layout for phones, tablets, and computers.
+## ✨ What’s Included?
+
+- Operator Skins — Checklists for earnable Zombies and Endgame operator rewards.
+- Relics — Track 30 relic unlocks, with map filters and expandable guides.
+- Wrestling Belt — A dedicated checklist for all 18 weapon requirements during your run.
+- Super Easter Egg Toys — Coming soon!
+- Progress Indicators — Completion counts, percentages, and progress bars.
+- Helpful Filters — Hide completed entries to focus on what remains.
+- Mobile-Friendly Layout — Use the tracker on your phone, tablet, or computer.
 
 ## ✅ How to Use
 
-1. Open the tracker.
-2. Choose Relic Belt Tracker or All Relics Tracker.
-3. Expand an entry to read its description and instructions.
-4. Check its completion box when you have met the relevant requirement.
-5. Follow your completion count and progress bar.
+1. Open the tracker and choose a checklist.
+2. Expand an entry to read its requirements or guide.
+3. Complete the requirement in-game.
+4. Check off the entry.
+5. Follow your progress and use the available filters to find what remains.
 
-Opening or closing a guide does not change its completion checkbox.
+Opening a guide or clicking artwork does not mark an entry complete.
 
-### 🏆 Relic Belt Tracker
+The tracker is manual—it does not connect to your game or automatically detect unlocks.
 
-Use this mode to track the weapon requirements during your Wrestling Belt attempt.
+## 🎭 Operator Skins
 
-- Check off each weapon after completing its required qualifying kills.
-- Expand a weapon entry for its location and additional instructions.
-- Work toward 18/18 weapons completed.
+Keep track of earnable operator rewards, including:
 
-Completing the weapon checklist is not the same as unlocking the relic. You must still complete the Wrestling Belt trial.
+- BO6 Zombies Main Quest skins that carry forward into BO7.
+- Endgame No Fear skins.
+- Zombies Memento Mori crew skins.
+- Zombies Directed Mode reward skins.
+- The Warden operator unlock.
+- Endgame Glitch reward skins.
 
-For the trial’s rules and strategy, open:
+Read each entry’s requirements before starting. Some rewards require completing an encounter while playing as a specific operator.
 
-All Relics Tracker → Totenreich → Wrestling Belt
+## 💎 Relic Collection & Guides
 
-### 💎 All Relics Tracker
-
-Use this mode to track which relics you have unlocked.
-
-Each expanded relic guide includes:
-
-- Effect when equipped.
-- Prerequisites.
-- Portal-opening instructions.
-- Trial objective.
-- Trial modifiers and restrictions.
-- Recommended preparation.
-- Strategies and stage instructions.
-- Warnings, failure conditions, and verification notes where available.
-- Reference walkthrough links.
-
-Check off a relic only after completing its trial and receiving the unlock. Opening its portal does not count as completion.
-
-### 🗺️ Filter by Map
-
-In All Relics Tracker, select a map to narrow the displayed entries.
+Track your relic unlocks across five maps:
 
 | Map | Relics |
-|-----|--------|
+|---|---:|
 | Ashes of the Damned | 9 |
 | Astra Malorum | 6 |
 | Paradox Junction | 3 |
@@ -77,226 +58,147 @@ In All Relics Tracker, select a map to narrow the displayed entries.
 | Kowakujo | 6 |
 | Total | 30 |
 
-The progress count covers the entire selected tracker. Filtering by map does not change the overall relic total of 30.
+Expand a relic to view available information about:
 
-### 👁️ Show Remaining Only
+- Its effect when equipped.
+- Unlock prerequisites.
+- Opening its portal.
+- Trial objectives and restrictions.
+- Recommended preparation and strategies.
+- Warnings, failure conditions, and reference walkthroughs.
 
-Enable “Show remaining only” to hide completed entries.
+Check off a relic after completing its trial and receiving the unlock—not just after opening its portal.
 
-Disable it to display the full checklist again.
+Map filters only change the entries displayed. Your relic progress still tracks the full collection of 30.
 
-You can combine this option with a map filter in All Relics Tracker.
+## 🏆 Wrestling Belt Run Tracker
 
-### ✏️ Correct a Mistake
+Keep your weapon progress organized during a Wrestling Belt attempt.
 
-Uncheck an entry to remove its completion status. Your progress updates immediately.
+- Track all 18 weapon requirements.
+- Expand weapon entries for locations and instructions.
+- Check off each weapon after earning its required qualifying kills.
+- Use the separate Wrestling Belt relic guide for trial rules and strategy.
 
-If the entry is hidden, disable “Show remaining only” first.
+Completing the weapon checklist does not automatically unlock the relic. You must still finish its in-game trial.
 
-### 🔄 Switch Tracker Modes
+The weapon checklist and relic checklist are independent.
 
-Switching between the two modes preserves each mode’s progress while the page remains open.
+### ⚠️ Make Your Weapon Kills Count
 
-Each mode keeps its own:
+For the safest attempt, avoid effects that can finish off zombies instead of your current weapon:
 
-- Completion checkboxes.
-- Expanded guides.
-- “Show remaining only” setting.
+- Ammo Mod effects.
+- Wisp Tea companion kills.
+- Elemental Pop activations.
+- Electric Cherry reload damage.
 
-All Relics Tracker also retains its selected map during mode switching.
+If another effect takes a kill, do not assume it counted toward the weapon requirement. Earn additional direct weapon kills before moving on.
 
-The two checklists are independent. Completing the belt weapon list does not automatically mark the Wrestling Belt relic as unlocked.
-
-### 🧹 Reset a Tracker
-
-Select “Reset this tracker” and confirm.
-
-This clears completion checkboxes in the selected mode, including entries hidden by filters. It does not reset completion in the other mode.
-
-## 🖼️ Relic Artwork & Difficulty Badges
-
-Relic entries display artwork when a matching image is available.
-
-Difficulty badges use the corresponding portal image:
-
-- Grim
-- Sinister
-- Wicked
-
-If an image is unavailable, the entry remains usable. Its name, difficulty text, checkbox, and guide still work.
-
-Clicking an image does not mark the relic complete.
-
-### Asset Locations
-
-Artwork is loaded from paths relative to the application:
-
-~~~text
-assets/
-├── relics/
-│   ├── relic_music_box.webp
-│   ├── relic_film_reel.webp
-│   ├── relic_film_reel.png
-│   └── ...
-└── portals/
-    ├── grim.png
-    ├── sinister.png
-    └── wicked.png
-~~~
-
-The artwork loader:
-
-- Tries WebP first, then PNG for relic images.
-- Supports existing filename exceptions.
-- Uses PNG portal images, with WebP alternatives supported.
-- Hides unavailable images instead of leaving broken-image icons.
-- Uses relative paths rather than branch-specific GitHub URLs.
-
-Keep the assets alongside the application when deploying or merging branches.
-
-## 📖 About the Guides
-
-The guides are community-written reference material, not automatic game verification.
-
-A relic’s equipped effect and its trial modifier are separate mechanics. Read the “Inside the trial” section before activating a portal.
-
-Follow the on-screen instructions and timers during your attempt.
-
-- Enemy compositions can vary.
-- HVT examples are not guaranteed spawn lists.
-- Recommended equipment is a strategy suggestion unless explicitly identified as required.
-- Unconfirmed details and source disagreements are marked.
-- Some portal puzzles still require the linked walkthroughs for exact item locations or sequence cues.
-- Updates and patches may change quest behavior.
-
-If a guide lists an unverified timer, wave count, damage interaction, or location, do not treat that detail as confirmed.
-
-## ⚠️ Wrestling Belt: Keep Your Weapon Kills Clean
-
-For the safest attempt, avoid effects that can kill zombies instead of the weapon you are working on.
-
-- Avoid Ammo Mods. Their effects can finish off zombies, making your apparent weapon kill count unreliable.
-- Avoid Wisp Tea. Its summoned companion kills independently of your weapon.
-- Avoid Elemental Pop. It can activate Ammo Mod effects even when you have not equipped an Ammo Mod on the weapon.
-- Avoid Electric Cherry. This Elemental Pop augment creates a reload discharge that can damage and potentially finish nearby zombies.
-
-### Before Checking Off a Weapon
-
-Make sure you have completed the required kills with the weapon itself—not with a wisp, an Ammo Mod activation, or reload damage.
-
-If another effect takes a kill, do not assume that kill counted toward the weapon. Earn additional direct weapon kills before moving on.
-
-> These are precautions to reduce kill-count confusion, not a claim that simply buying a perk automatically fails the challenge.
+> These are precautions to reduce kill-count confusion—not a claim that buying a perk automatically fails the challenge.
 >
-> These precautions concern Wrestling Belt weapon kills. Other relic trials may specifically require elemental damage, traps, Field Upgrades, or scorestreaks.
->
-> The tracker cannot detect your loadout, verify qualifying kills, or confirm an in-game unlock.
+> Other relic trials may specifically require elemental damage, traps, Field Upgrades, or scorestreaks. Follow the guide for the trial you are attempting.
 
-## 📋 Wrestling Belt Weapon Checklist
+## 🧸 Super Easter Egg Toys
 
-| # | Weapon | Location |
-|---|--------|----------|
-| 01 | CODA 9 | Eidskallen Landing |
-| 02 | Echo 12 | Eidskallen Landing |
-| 03 | MPC-25 | Eidskallen Square |
-| 04 | M10 Breacher | Blodheim Hall |
-| 05 | MXR-17 | Fishery Island |
-| 06 | Peacekeeper Mk 1 | Eidskallen Market |
-| 07 | M8A1 | Eidskallen Stave Church |
-| 08 | Shadow SK | Tyr’s Shoulder |
-| 09 | RK-9 | Dry Dock |
-| 10 | X9 Maverick | Dry Dock |
-| 11 | VS Recon | Core Foundry |
-| 12 | DS20 Mirage | War Factory |
-| 13 | Warden 309 | Tyr’s Foot |
-| 14 | XM325 | Beacon Island |
-| 15 | M34 Novaline | Von List’s Castle — secret room through Tyr’s Head |
-| 16 | AK-27 | Ava’s Room — secret room through Tyr’s Head |
-| 17 | Dravec 45 | Requiem Sacrifice Room — secret room through Tyr’s Head |
-| 18 | Jotunn Star | Wonder Weapon quest or Mystery Box |
+A dedicated Super Easter Egg Toy checklist is coming soon!
 
-> Naming note: The original tracker labels the Tyr’s Foot weapon “Warden 309,” while a reference guide calls it “Warden 308.” Check the in-game wall-buy label. The original tracker name is retained pending confirmation.
+## 🛠️ Managing Your Checklist
 
-## ⏱️ Your Progress Is Temporary
+### Show Only What Remains
 
-**Progress is session-only.** Neither tracker is designed for long-term saving.
+Enable “Show remaining only” to hide completed entries. Turn it off to see the full checklist again.
 
-- Switching tracker modes keeps progress while the page remains open.
-- Refreshing the page clears both checklists.
-- A separate page starts its own independent checklists.
-- Progress does not sync between tabs, devices, or Discord.
-- There is no account, saved-progress file, or recovery feature.
-- Returning through the browser’s back/forward cache resets the checklists.
+In the relic tracker, you can combine this with a map filter.
 
-> Keep the page open during your run. Take screenshots if you want a record before refreshing or leaving.
+### Fix an Accidental Checkmark
 
-Browser suspension and session restoration can vary. Do not rely on your browser to preserve progress.
+Uncheck the entry to remove its completion status.
+
+If it is hidden, turn off “Show remaining only” first.
+
+### Switch Between Trackers
+
+The Wrestling Belt and relic trackers keep their separate progress while the page remains open. Switching between them does not combine their checkmarks or automatically complete related entries.
+
+### Start a Fresh Attempt
+
+Use “Reset this tracker” and confirm to clear the selected checklist, including completed entries hidden by filters.
+
+Resetting one tracker does not reset the other.
+
+## ⏱️ Important: Progress Is Temporary
+
+**Your checkmarks are session-only and are not permanently saved.**
+
+- Keep the page open while tracking your run.
+- Refreshing or reopening the page clears progress.
+- Separate tabs and devices have independent checklists.
+- Progress does not sync with Discord.
+- There is no saved-progress recovery feature.
+- Returning through your browser’s back/forward navigation may reset the checklist.
+
+Take screenshots before leaving if you want a record of your progress. Do not rely on browser session restoration to preserve checkmarks.
+
+## 📖 A Note About the Guides
+
+These guides are community-written references. Game updates can change requirements, locations, or trial behavior.
+
+- Follow in-game prompts and timers.
+- Read trial restrictions before activating a portal.
+- Remember that a relic’s equipped effect may differ from its trial modifier.
+- Treat recommended equipment as advice unless it is explicitly listed as required.
+- Check marked verification notes and linked walkthroughs when details are uncertain.
+
+The tracker cannot verify qualifying kills, detect your loadout, or confirm an in-game unlock.
 
 ## ❓ Frequently Asked Questions
 
-### Does this track my game automatically?
+### Is the tracker free?
 
-No. Check and uncheck entries manually. The tracker does not connect to your game or verify completion.
+Yes. No account or installation is required.
 
-### Does the relic tracker permanently save my unlock collection?
+### Does it track my game automatically?
 
-No. Relic checkmarks are temporary, just like weapon checkmarks. Reloading clears them.
+No. You check off your progress manually.
 
-### Does finishing all 18 weapons unlock the Wrestling Belt automatically?
+### Will it remember my unlocks next time?
 
-No. The weapon checklist tracks the weapon requirements. You still need to complete the in-game relic trial.
+No. Progress is temporary and clears when the page reloads.
 
-### Does checking the Wrestling Belt relic complete the weapon checklist?
+### Does finishing the weapon checklist unlock the Wrestling Belt?
 
-No. The two tracker modes are independent.
+No. You must still complete the in-game relic trial.
 
-### Can I open several guides at once?
+### Why are some entries missing?
 
-Yes. Multiple descriptions can remain expanded.
+Check whether “Show remaining only” or a map filter is enabled.
 
-### Why are completed entries missing?
+### Why does the relic progress total stay at 30 when I select a map?
 
-“Show remaining only” may be enabled. Turn it off to display completed entries.
+The map filter changes what you see, not the overall collection total.
 
-In All Relics Tracker, also check the selected map filter.
+### Can I keep multiple guides open?
 
-### Why does the progress total stay at 30 when I filter by map?
+Yes. You can expand several entries at once.
 
-The progress bar tracks your overall relic checklist. The map filter only changes which entries are displayed.
+### Why is an entry missing its picture?
 
-### Why does a relic have no picture?
+Some artwork may be unavailable. You can still use the entry’s checkbox and guide.
 
-An image may not be available, its filename may not match, or the asset may not have been deployed. The entry and guide still work without artwork.
+### Can someone else change my checkmarks?
 
-### Why does the difficulty text appear without a portal image?
+No. Each visitor has an independent checklist session.
 
-The corresponding portal asset may be missing or unavailable. The text remains visible so the difficulty is still identifiable.
+### Does this connect to the XGC Discord tracker?
 
-### Are all guide details confirmed?
+No. The website and Discord bot trackers are separate.
 
-No. Verification gaps and conflicting source details are marked. Follow in-game prompts and consult the linked references where additional detail is needed.
+## 💬 Help, Feedback & Community
 
-### Can other people change my checklist?
+Found a missing reward, incorrect location, outdated requirement, or bug?
 
-Other visitors use independent checklists. Your checkmarks do not update anyone else’s page.
-
-### Why did my progress disappear?
-
-Progress is not saved. Reloading, starting a new page, or returning through the browser’s back/forward cache resets it.
-
-### Does this connect to my Discord tracker?
-
-No. The website is separate from the Discord bot’s tracker.
-
-### Do I need to install anything?
-
-No installation is needed to use the hosted tracker. Open it in your browser.
-
-## 💬 Support & Community
-
-Found an incorrect location, a missing image, an outdated trial rule, or a bug?
-
-Include the relic or weapon name, what happened, and a screenshot or error message if available.
+Let us know which entry is affected and what needs correcting. Screenshots and error messages are helpful.
 
 [Join Xieon’s Gaming Corner on Discord](https://discord.gg/Xieon)
 
@@ -304,4 +206,6 @@ Include the relic or weapon name, what happened, and a screenshot or error messa
 
 ---
 
-An unofficial community tool from Xieon’s Gaming Corner. Not affiliated with or endorsed by Activision.
+Created by Xieon, Lead Developer for Xieon’s Gaming Corner intendted to be used as a community resource.
+
+Unofficial fan-made tool. Not affiliated with or endorsed by Activision.
