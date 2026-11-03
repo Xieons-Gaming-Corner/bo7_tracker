@@ -1,118 +1,34 @@
-# 🏆 XGC Wrestling Belt Tracker
-A free, mobile-friendly weapon checklist from Xieon’s Gaming Corner. Track your Wrestling Belt progress while you play—no account or download required.
+# XGC Relic & Belt Tracker — replacement files
 
-## 🚀 Open the Tracker
+Replace index.html, styles.css, and app.js; ADD data.js in the same repository root. Leave .nojekyll in place. No build, dependencies, backend, or GitHub write is required. Open index.html to preview or deploy the four files through the existing GitHub Pages setup.
 
-[Launch the Wrestling Belt Tracker](https://xieons-gaming-corner.github.io/wrestling-belt-tracker/)
+## Features
+- Original 18-weapon belt list preserved, including original names/locations.
+- All 30 tiered relics, grouped via map filtering.
+- Independent completion checkbox and expandable description for every item.
+- Effects, prerequisites, ordered unlock-route summaries, and reference links.
+- Separate session-only completion, filters and open panels per mode.
+- Show remaining only; reset only the selected tracker (including filtered entries).
+- Multiple descriptions can remain open. Native details/summary keyboard controls.
+- No localStorage, cookies, analytics, or automatic network requests.
 
-## ✅ How to Use
+## Content limitations
+These are expanded unlock-route summaries, NOT exhaustive location-by-location walkthroughs for every puzzle. Exact teddy-part positions, pistol spawns, some ingredient locations, and puzzle cues require the linked sources. Do not advertise this release as containing 30 fully exhaustive walkthroughs. Some source details conflict; these are flagged in the relevant entries (Blood Vials, Dancing Arnie, and Warden weapon naming). The belt label Warden 309 is preserved from the repository although the reference calls it Warden 308. No fake placeholder relics are included. Manual checkbox progress is not connected to the game. Completing the belt weapon list does not automatically check the Wrestling Belt relic unlock.
 
-1. Open the tracker on your phone, tablet, or computer.
-2. Check off each weapon as you complete it.
-3. Follow your completion count and progress bar.
-4. Reach **18/18** to turn the progress panel gold.
+## Source material
+- https://gamerant.com/black-ops-7-zombies-all-relics-effects-locations/
+- https://timesaver.gg/blog/bo7-best-friends-camo-all-30-relics-checklist
+- https://gamerant.com/black-ops-7-zombies-how-to-get-all-kowakujo-relics-guide/
+- https://www.ign.com/wikis/call-of-duty-black-ops-7/How_to_Find_and_Activate_All_Relics_in_Cursed_Mode
+- Existing repository weapon list supplied in the conversation.
 
-Each weapon includes its location to help you plan your run.
+## Manual smoke test
+1. Open index.html. Check a belt weapon and open its instructions.
+2. Switch to All Relics, open several guides, and check a relic.
+3. Switch back: belt check and expanded guide should still be present.
+4. Filter relics by map and show remaining only; overall progress stays out of 30.
+5. Reset one tracker; the other tracker's progress must remain.
+6. Reload: both checklists start fresh.
 
-### Show Remaining Only
-
-Enable **Show remaining only** to hide completed weapons and focus on what you still need.
-
-Disable it to view the full checklist again.
-
-### Correct a Mistake
-
-Uncheck a weapon to remove its completion status. Your progress updates immediately.
-
-### Start a New Run
-
-Select **Reset progress** and confirm to clear all checkmarks.
-
-## ⚠️ Important: Keep Your Weapon Kills Clean
-
-For the safest attempt, avoid effects that can kill zombies instead of the weapon you are working on.
-
-- **Avoid Ammo Mods.** Their effects can finish off zombies, making your apparent weapon kill count unreliable.
-- **Avoid Wisp Tea.** Its summoned companion kills zombies independently of your weapon.
-- **Avoid Elemental Pop.** It can activate Ammo Mod effects even when you have not equipped an Ammo Mod on your weapon.
-- **Avoid Electric Cherry.** This Elemental Pop augment creates an electric discharge when you reload, damaging nearby zombies and potentially finishing them off.
-
-### Before You Check Off a Weapon
-
-Make sure you have completed its required kills with the weapon itself—not with a wisp, an Ammo Mod activation, or reload damage.
-
-If an effect takes a kill, do not assume that kill counted toward the weapon. Get additional direct weapon kills before moving on.
-
-> These are precautions to reduce kill-count confusion, not a claim that simply buying a perk automatically fails the challenge.
->
-> The tracker is a manual checklist. It cannot detect your loadout, verify qualifying kills, or confirm the in-game unlock.
-
-## 📋 Weapon Checklist
-
-| # | Weapon | Location |
-|---|--------|----------|
-| 01 | CODA 9 | Eidskallen Landing |
-| 02 | Echo 12 | Eidskallen Landing |
-| 03 | MPC-25 | Eidskallen Square |
-| 04 | M10 Breacher | Blodheim Hall |
-| 05 | MXR-17 | Fishery Island |
-| 06 | Peacekeeper Mk 1 | Eidskallen Market |
-| 07 | M8A1 | Eidskallen Stave Church |
-| 08 | Shadow SK | Tyr’s Shoulder |
-| 09 | RK-9 | Dry Dock |
-| 10 | X9 Maverick | Dry Dock |
-| 11 | VS Recon | Core Foundry |
-| 12 | DS20 Mirage | War Factory |
-| 13 | Warden 309 | Tyr’s Foot |
-| 14 | XM325 | Beacon Island |
-| 15 | M34 Novaline | Von List’s Castle — secret room through Tyr’s Head |
-| 16 | AK-27 | Ava’s Room — secret room through Tyr’s Head |
-| 17 | Dravec 45 | Requiem Sacrifice Room — secret room through Tyr’s Head |
-| 18 | Jotunn Star | Wonder Weapon quest or Mystery Box |
-
-## ⏱️ Your Progress Is Temporary
-
-This tracker is designed for your current run, not long-term saving.
-
-- Refreshing the page clears your checklist.
-- A separate page starts its own independent checklist.
-- Progress does not sync between tabs, devices, or Discord.
-- There is no account, saved-progress file, or recovery feature.
-- Returning to the page through the browser’s back/forward cache resets the checklist.
-
-> Keep the tracker open during your run. Take a screenshot if you want a record before refreshing or leaving the page.
-
-Browser suspension and session-restoration behavior may vary, so do not rely on your browser to preserve progress.
-
-## ❓ Frequently Asked Questions
-
-### Does this track my game automatically?
-
-No. Check and uncheck weapons manually as you complete them. The tracker does not connect to your game or verify completion.
-
-### Can other people change my checklist?
-
-Other visitors use their own independent checklists. Your checkmarks do not update anyone else’s page.
-
-### Why did my progress disappear?
-
-Progress is not saved. Reloading the page or starting a new page resets the tracker.
-
-### Why are completed weapons missing?
-
-You may have **Show remaining only** enabled. Turn it off to display every weapon.
-
-### Does this connect to my Discord tracker?
-
-No. The website checklist is separate from the Discord bot’s tracker.
-
-## 💬 Support & Community
-
-Found an incorrect location or have a suggestion?
-
-[Join Xieon’s Gaming Corner on Discord](https://discord.gg/Xieon)
-[![Discord Widget](https://discord.com/api/guilds/829181609156411463/widget.png?style=banner2)](https://discord.gg/Xieon)
-
-
-
-An unofficial community tool from Xieon’s Gaming Corner. Not affiliated with or endorsed by Activision.
+## Validation performed
+Data counts, map distribution, unique IDs, and packaged file presence were checked during generation. No browser runtime testing was performed.
