@@ -1,6 +1,6 @@
 [
   {
-    "id": "skin-1",
+    "id": "skin-0",
     "operator": "Maya",
     "name": "Trophy Collector",
     "category": "BO6 Carry-Forward",
@@ -8,7 +8,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-2",
+    "id": "skin-1",
     "operator": "Weaver",
     "name": "Jackknife",
     "category": "BO6 Carry-Forward",
@@ -16,7 +16,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-3",
+    "id": "skin-2",
     "operator": "Carver",
     "name": "PhDeadly",
     "category": "BO6 Carry-Forward",
@@ -24,7 +24,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-4",
+    "id": "skin-3",
     "operator": "Grey",
     "name": "Blood, Sweat, an’ Gears",
     "category": "BO6 Carry-Forward",
@@ -32,7 +32,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-5",
+    "id": "skin-4",
     "operator": "Mason",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -40,7 +40,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-6",
+    "id": "skin-5",
     "operator": "Samuels",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -48,7 +48,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-7",
+    "id": "skin-6",
     "operator": "Anderson",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -56,7 +56,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-8",
+    "id": "skin-7",
     "operator": "Wei Lin",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -64,7 +64,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-9",
+    "id": "skin-8",
     "operator": "Vermaak",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -72,7 +72,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-10",
+    "id": "skin-9",
     "operator": "Zaveri",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -80,7 +80,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-11",
+    "id": "skin-10",
     "operator": "Jurado",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -88,7 +88,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-12",
+    "id": "skin-11",
     "operator": "Grimm",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -96,7 +96,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-13",
+    "id": "skin-12",
     "operator": "Falkner",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -104,7 +104,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-14",
+    "id": "skin-13",
     "operator": "Razor",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -112,7 +112,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-15",
+    "id": "skin-14",
     "operator": "Kagan",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -120,7 +120,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-16",
+    "id": "skin-15",
     "operator": "50/50",
     "name": "No Fear",
     "category": "Endgame — No Fear",
@@ -128,7 +128,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-17",
+    "id": "skin-16",
     "operator": "Dempsey",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -136,7 +136,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-18",
+    "id": "skin-17",
     "operator": "Nikolai",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -144,7 +144,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-19",
+    "id": "skin-18",
     "operator": "Takeo",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -152,7 +152,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-20",
+    "id": "skin-19",
     "operator": "Richtofen",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -160,7 +160,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-21",
+    "id": "skin-20",
     "operator": "Maya",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -168,7 +168,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-22",
+    "id": "skin-21",
     "operator": "Weaver",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -176,7 +176,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-23",
+    "id": "skin-22",
     "operator": "Carver",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -184,7 +184,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-24",
+    "id": "skin-23",
     "operator": "Grey",
     "name": "Memento Mori",
     "category": "Rex Infernus",
@@ -192,7 +192,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-25",
+    "id": "skin-24",
     "operator": "Maya",
     "name": "Bushwalker",
     "category": "Directed Mode",
@@ -200,7 +200,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-26",
+    "id": "skin-25",
     "operator": "Grey",
     "name": "Cosmic Repair",
     "category": "Directed Mode",
@@ -208,7 +208,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-27",
+    "id": "skin-26",
     "operator": "Weaver",
     "name": "Dead Man’s Drip",
     "category": "Directed Mode",
@@ -216,7 +216,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-28",
+    "id": "skin-27",
     "operator": "Carver",
     "name": "Yōjinbō",
     "category": "Directed Mode",
@@ -224,7 +224,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-29",
+    "id": "skin-28",
     "operator": "The Warden",
     "name": "Operator Unlock",
     "category": "Rex Infernus",
@@ -232,7 +232,7 @@
     "kind": "Operator unlock"
   },
   {
-    "id": "skin-30",
+    "id": "skin-29",
     "operator": "Vermaak",
     "name": "Firewall",
     "category": "Glitch Boss — Firewall",
@@ -240,7 +240,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-31",
+    "id": "skin-30",
     "operator": "Wei Lin",
     "name": "Firewall",
     "category": "Glitch Boss — Firewall",
@@ -248,7 +248,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-32",
+    "id": "skin-31",
     "operator": "Anderson",
     "name": "Firewall",
     "category": "Glitch Boss — Firewall",
@@ -256,7 +256,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-33",
+    "id": "skin-32",
     "operator": "Karma",
     "name": "Firewall",
     "category": "Glitch Boss — Firewall",
@@ -264,7 +264,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-34",
+    "id": "skin-33",
     "operator": "Grimm",
     "name": "Override",
     "category": "Glitch Boss — Override",
@@ -272,7 +272,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-35",
+    "id": "skin-34",
     "operator": "Mason",
     "name": "Override",
     "category": "Glitch Boss — Override",
@@ -280,7 +280,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-36",
+    "id": "skin-35",
     "operator": "Anderson",
     "name": "Override",
     "category": "Glitch Boss — Override",
@@ -288,7 +288,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-37",
+    "id": "skin-36",
     "operator": "Vermaak",
     "name": "Aftershock",
     "category": "Glitch Boss — Aftershock",
@@ -296,7 +296,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-38",
+    "id": "skin-37",
     "operator": "Zaveri",
     "name": "Aftershock",
     "category": "Glitch Boss — Aftershock",
@@ -304,7 +304,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-39",
+    "id": "skin-38",
     "operator": "Jurado",
     "name": "Aftershock",
     "category": "Glitch Boss — Aftershock",
@@ -312,7 +312,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-40",
+    "id": "skin-39",
     "operator": "50/50",
     "name": "Shatter Shock",
     "category": "Glitch Boss — Shatter Shock",
@@ -320,7 +320,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-41",
+    "id": "skin-40",
     "operator": "Razor",
     "name": "Shatter Shock",
     "category": "Glitch Boss — Shatter Shock",
@@ -328,7 +328,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-42",
+    "id": "skin-41",
     "operator": "Falkner",
     "name": "Shatter Shock",
     "category": "Glitch Boss — Shatter Shock",
@@ -336,7 +336,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-43",
+    "id": "skin-42",
     "operator": "Samuels",
     "name": "Data Freeze",
     "category": "Glitch Boss — Data Freeze",
@@ -344,7 +344,7 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-44",
+    "id": "skin-43",
     "operator": "Wei Lin",
     "name": "Data Freeze",
     "category": "Glitch Boss — Data Freeze",
@@ -352,11 +352,91 @@
     "kind": "Operator skin"
   },
   {
-    "id": "skin-45",
+    "id": "skin-44",
     "operator": "Kagan",
     "name": "Data Freeze",
     "category": "Glitch Boss — Data Freeze",
     "requirement": "Defeat the Prime Target Glitch Boss in Operation King Killer as Kagan.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-prestige-kagan-cybernetics",
+    "operator": "Kagan",
+    "name": "Cybernetics",
+    "category": "Prestige",
+    "requirement": "Reach Prestige Master Level 1000.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-prestige-jurado-devil",
+    "operator": "Jurado",
+    "name": "Devil",
+    "category": "Prestige",
+    "requirement": "Reach Prestige Master.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-takeo",
+    "operator": "Takeo",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Kowakujo Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-carver",
+    "operator": "Carver",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Kowakujo Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-maya",
+    "operator": "Maya",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Ashes of the Damned Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-dempsey",
+    "operator": "Dempsey",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Ashes of the Damned Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-weaver",
+    "operator": "Weaver",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Totenreich Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-richtofen",
+    "operator": "Richtofen",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Totenreich Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-nikolai",
+    "operator": "Nikolai",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Astra Malorum Main Quest in Standard Mode.",
+    "kind": "Operator skin"
+  },
+  {
+    "id": "skin-standard-ee-grey",
+    "operator": "Grey",
+    "name": "Restored",
+    "category": "Standard Mode EE",
+    "requirement": "Complete the Astra Malorum Main Quest in Standard Mode.",
     "kind": "Operator skin"
   }
 ]
