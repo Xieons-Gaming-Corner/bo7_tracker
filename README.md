@@ -206,6 +206,6 @@ Let us know which entry is affected and what needs correcting. Screenshots and e
 
 ---
 
-Created by Xieon, Lead Developer for Xieon’s Gaming Corner intendted to be used as a community resource.
+Created by [@Xieon](https://github.com/Xieon), Lead Developer for [Xieon’s Gaming Corner](https://github.com/Xieons-Gaming-Corner) intendted to be used as a community resource.
 
 Unofficial fan-made tool. Not affiliated with or endorsed by Activision.
