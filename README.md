@@ -10,11 +10,20 @@ Track operator skin unlocks, explore relic guides, and keep your Wrestling Belt 
 
 No account, installation, or application download required.
 
+## 📚 Wiki & Guides
+
+Visit the wiki for detailed instructions on each tracker:
+
+- [🏠 Wiki Home](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki)
+- [🎭 Operator Skins Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
+- [💎 Relics Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
+- [🏆 Wrestling Belt Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
+
 ## ✨ What’s Included?
 
-- Operator Skins — Checklists for earnable Zombies and Endgame operator rewards.
-- Relics — Track 30 relic unlocks, with map filters and expandable guides.
-- Wrestling Belt — A dedicated checklist for all 18 weapon requirements during your run.
+- [Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins) — Checklists for earnable Zombies and Endgame operator rewards.
+- [Relics](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics) — Track 30 relic unlocks, with map filters and expandable guides.
+- [Wrestling Belt](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt) — A dedicated checklist for all 18 weapon requirements during your run.
 - Super Easter Egg Toys — Coming soon!
 - Progress Indicators — Completion counts, percentages, and progress bars.
 - Helpful Filters — Hide completed entries to focus on what remains.
@@ -32,6 +41,8 @@ Opening a guide or clicking artwork does not mark an entry complete.
 
 The tracker is manual—it does not connect to your game or automatically detect unlocks.
 
+For more help, visit the [Tracker Wiki](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki).
+
 ## 🎭 Operator Skins
 
 Keep track of earnable operator rewards, including:
@@ -44,6 +55,8 @@ Keep track of earnable operator rewards, including:
 - Endgame Glitch reward skins.
 
 Read each entry’s requirements before starting. Some rewards require completing an encounter while playing as a specific operator.
+
+[View the Operator Skins Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
 
 ## 💎 Relic Collection & Guides
 
@@ -71,6 +84,8 @@ Check off a relic after completing its trial and receiving the unlock—not just
 
 Map filters only change the entries displayed. Your relic progress still tracks the full collection of 30.
 
+[View the Relics Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
+
 ## 🏆 Wrestling Belt Run Tracker
 
 Keep your weapon progress organized during a Wrestling Belt attempt.
@@ -83,6 +98,8 @@ Keep your weapon progress organized during a Wrestling Belt attempt.
 Completing the weapon checklist does not automatically unlock the relic. You must still finish its in-game trial.
 
 The weapon checklist and relic checklist are independent.
+
+[View the Wrestling Belt Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
 
 ### ⚠️ Make Your Weapon Kills Count
 
@@ -158,6 +175,14 @@ The tracker cannot verify qualifying kills, detect your loadout, or confirm an i
 
 Yes. No account or installation is required.
 
+### Where can I find detailed instructions?
+
+Visit the [Wiki Home](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki), or open the guide for your checklist:
+
+- [Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
+- [Relics](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
+- [Wrestling Belt](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
+
 ### Does it track my game automatically?
 
 No. You check off your progress manually.
@@ -201,7 +226,7 @@ You may use, copy, modify, and redistribute this project’s source code, includ
 When sharing or redistributing the code or a modified version, include the following attribution in your README, documentation, or a visible credits section:
 
 > Based on the XGC BO7 Zombies Tracker by Xieon’s Gaming Corner (XGC).
-> Original source: https://github.com/Xieons-Gaming-Corner/bo7_tracker
+> Original source: [https://github.com/Xieons-Gaming-Corner/bo7_tracker](https://github.com/Xieons-Gaming-Corner/bo7_tracker)
 
 Keep this attribution and any existing license notices with redistributed copies of the source code. Clearly identify your modifications, and do not imply that XGC endorses your project.
 
@@ -219,6 +244,6 @@ Let us know which entry is affected and what needs correcting. Screenshots and e
 
 ---
 
-Created by [@Xieon](https://github.com/Xieon), Lead Developer for [Xieon’s Gaming Corner](https://github.com/Xieons-Gaming-Corner) intendted to be used as a community resource.
+Created by [@Xieon](https://github.com/Xieon), Lead Developer for [Xieon’s Gaming Corner](https://github.com/Xieons-Gaming-Corner), as a resource for the community.
 
 Unofficial fan-made tool. Not affiliated with or endorsed by Activision.
