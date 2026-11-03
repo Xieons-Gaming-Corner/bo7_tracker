@@ -1,16 +1,25 @@
-XGC TRACKER — SELF-CONTAINED REPAIR
+XGC TRACKER — BUILD 3: EXPANDED TRIAL GUIDES
 
 INSTALL
-Replace ONLY index.html in the repository root with the enclosed index.html.
-Keep .nojekyll. Old app.js, data.js and styles.css can remain: this page does not load them.
-After GitHub Pages deployment finishes, hard refresh (Ctrl+Shift+R).
-For a local preview, double-click index.html. No server/build/install is required.
+1. Extract this ZIP.
+2. Replace index.html at your repository root with the enclosed file.
+3. Keep .nojekyll (an empty copy is included).
+4. Wait for deployment, then hard refresh with Ctrl+Shift+R.
 
-CHANGES
-All CSS, data and JavaScript are embedded in index.html to eliminate the earlier multi-file dependency/mixed-version failure mode. Visible initialization error reporting replaces silent blank rendering. Includes the original 18 belt entries, 30 relic entries, independent checkboxes and expandable descriptions, mode switching, map filtering, separate session progress and reset.
+No app.js, data.js, or styles.css is required. Old copies may remain: this page does not load them. All application styling, logic, and data are embedded in index.html. Open it directly for local preview.
 
-CONTENT
-Relic guides are expanded route summaries, not exhaustive guides for every location/puzzle. Reference links provide additional detail. Original Warden 309 naming retained with a discrepancy warning. Counts and summaries come from the previously supplied package and conversation; game facts were not newly reverified for this packaging repair.
+CONTENTS AND CHANGES
+- Original 18-weapon belt checklist.
+- 30 relic entries with effects, prerequisites, and portal-opening summaries.
+- Expanded trial objectives, rules, preparation, strategies, warnings, and verification notes in every relic entry.
+- Dragon Egg has all six drafted trial stages.
+- One shared completion disclaimer above the relic list, not repeated within every guide.
+- Separate session-only checkboxes, filters and expanded panels for each mode.
+- Map filtering, show remaining only, and mode-specific reset.
 
-VALIDATION
-Data counts, unique IDs and HTML script targets checked during generation. Browser execution testing is reported separately if performed; do not assume this package has been tested against a live deployment.
+LIMITATIONS
+This integrates the previously drafted guide text. It is not a new gameplay verification pass. Unconfirmed counts, timers, elemental matchups and source discrepancies remain marked. Some portal puzzles still need linked walkthroughs for exact item locations or puzzle cues. Do not present unresolved draft details as verified facts. The existing Warden 309 label is preserved with a discrepancy warning.
+
+The application is manual, not connected to the game. Reloading resets progress. It does not make network requests except when a user opens an external reference link.
+
+Browser smoke-test results are included in TEST-RESULTS.txt. Testing used headless Chromium, not the deployed GitHub Pages site.

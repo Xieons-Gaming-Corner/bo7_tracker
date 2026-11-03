@@ -1,0 +1,10 @@
+Headless Chromium smoke tests
+
+PASS: initial belt view renders 18 weapons without external scripts.
+PASS: relic view renders 30 entries, each with an expanded trial section.
+PASS: all 30 trials contain their objectives and modifiers.
+PASS: map filtering, six Dragon Egg stages, and remaining-only filtering.
+PASS: independent checkbox, open-panel, map and filter state survives switching.
+PASS: resetting relic completion does not reset belt completion.
+PASS: mobile viewport has no horizontal page overflow.
+PASS: a fresh document resets session progress; no JavaScript page errors.
