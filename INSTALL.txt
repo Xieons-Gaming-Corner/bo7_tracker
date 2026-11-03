@@ -1,31 +1,13 @@
-XGC RELIC ARTWORK UPDATE — ADDITIVE PATCH
+BUILD 4 — REPLACE ONLY INDEX.HTML
 
-This adds artwork to your existing build 3 application WITHOUT replacing or shortening any guides. No GitHub changes have been made automatically.
+Overwrite your repository-root index.html with the attached index.html.
+Keep .nojekyll and your assets/relics/ and assets/portals/ folders.
+After deployment, hard refresh with Ctrl+Shift+R and select All Relics Tracker.
 
-INSTALL (MANUAL — TWO STEPS)
-1. Add relic-artwork.js to the repository root beside index.html.
-2. In index.html, insert this line immediately BEFORE </body>, after the existing tracker script:
+Artwork support is built directly into this HTML file. It does not load app.js, data.js, styles.css, or relic-artwork.js. Existing copies may remain but are unused by this page. No installer or manual script insertion is required.
 
-<script src="./relic-artwork.js?v=1" defer data-xgc-relic-artwork></script>
+All application data, CSS, and JavaScript are embedded. Image files are external relative assets, not bundled. Relic names and tier text remain visible if artwork is missing. PNG/WebP fallback and existing filename aliases are included.
 
-Commit both files with your assets. After deployment, hard refresh.
+Includes 18 belt weapons, 30 relics, portal-opening summaries and expanded trial-guide drafts, six Dragon Egg stages, one shared completion disclaimer, independent session-only progress, filters and reset. Draft verification notes remain. Gameplay details were not newly reverified for this packaging update.
 
-OPTIONAL AUTOMATIC LOCAL INSTALLER
-Copy apply_artwork_update.py and relic-artwork.js beside your existing index.html, then run:
-python apply_artwork_update.py
-The installer backs up index.html as index.before-artwork.html and inserts the loader once. It does not contact GitHub or push anything. Do not deploy the backup unless you want it publicly accessible.
-
-ASSET PATHS
-Paths are relative to the app, never to a GitHub blob URL or a branch. The same code therefore works after merging to main.
-Relics: ./assets/relics/relic_<name>.webp, then .png.
-Portals: ./assets/portals/grim.png, sinister.png, wicked.png; WebP alternatives are tried too. Sinister also tries siniter.png and siniter.webp.
-
-Exact-name aliases cover the existing relic_Agarthan_Device.webp and relic_matryoshkadoll.webp filenames. Apostrophe and wrestling-belt variants are supported. Normalized names use underscores, e.g. relic_music_box.webp or relic_music_box.png.
-
-If all image candidates fail, the image is hidden; the relic name and difficulty text remain usable. Missing art does not prevent the tracker or guides from working. Browsers may still show 404 requests in DevTools while testing missing candidates; this is expected fallback behavior, not a tracker exception.
-
-ASSET AUDIT
-The checked wip_relics_add branch listed 13 relic image files for 12 distinct relics (Film Reel has both formats). Its assets root contained relics/ and toys/, but no portals/ folder at inspection time. Add assets/portals/ and your difficulty images so those badges can display. Images themselves are NOT bundled in this patch; retain/merge your existing assets.
-
-CHECKBOX BEHAVIOR
-Artwork and difficulty badges are outside completion labels, so clicking images does not mark a relic complete. Mode switching and map filters keep their existing behavior. Weapon entries are unchanged.
+Browser tests used Chromium with mocked asset responses and the complete generated application, not the live deployed site.

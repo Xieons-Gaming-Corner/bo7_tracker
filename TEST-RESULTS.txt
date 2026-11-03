@@ -1,9 +1,14 @@
-Headless Chromium tests with representative tracker markup and mocked images; not the deployed site.
+Chromium browser tests (mocked image responses):
 
-PASS: exact filenames for Music Box, Agarthan Device, Matryoshka Doll.
-PASS: WebP-to-PNG relic fallback.
-PASS: sinister-to-siniter portal fallback.
-PASS: missing art hidden without JavaScript errors.
-PASS: artwork clicks do not toggle checkboxes; checkbox and guide still work.
-PASS: dynamic re-render support and duplicate-install guard.
-PASS: no horizontal overflow at 390px fixture viewport.
+PASS: 18 belt weapons and 30 relics render.
+PASS: All 30 trial sections render; Dragon Egg includes six stages.
+PASS: All portal tiers display with valid mocked image responses.
+PASS: Relic WebP/PNG fallback and Agarthan/Matryoshka filename aliases work.
+PASS: Missing images are hidden after fallback exhaustion.
+PASS: Project-relative asset paths include the GitHub Pages repository prefix.
+PASS: Artwork clicks do not toggle completion.
+PASS: Mode switching preserves checkbox and open-guide state.
+PASS: Map and remaining-only filters work.
+PASS: Reset is independent between modes.
+PASS: Mobile viewport has no horizontal overflow.
+PASS: Reload resets progress; no JavaScript page errors.
