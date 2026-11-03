@@ -194,6 +194,19 @@ No. Each visitor has an independent checklist session.
 
 No. The website and Discord bot trackers are separate.
 
+## 📜 License & Attribution
+
+You may use, copy, modify, and redistribute this project’s source code, including in your own projects, provided that you credit Xieon’s Gaming Corner (XGC) as the original source.
+
+When sharing or redistributing the code or a modified version, include the following attribution in your README, documentation, or a visible credits section:
+
+> Based on the XGC BO7 Zombies Tracker by Xieon’s Gaming Corner (XGC).
+> Original source: https://github.com/Xieons-Gaming-Corner/bo7_tracker
+
+Keep this attribution and any existing license notices with redistributed copies of the source code. Clearly identify your modifications, and do not imply that XGC endorses your project.
+
+This permission applies only to original project code owned by XGC. Call of Duty names, artwork, game assets, and other third-party materials remain the property of their respective owners and are not licensed under these terms.
+
 ## 💬 Help, Feedback & Community
 
 Found a missing reward, incorrect location, outdated requirement, or bug?
