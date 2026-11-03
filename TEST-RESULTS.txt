@@ -1,10 +1,1 @@
-PASS: 45 unlocks: 44 skins and one operator; owner-supplied text retained.
-PASS: Operator and category filters combine correctly.
-PASS: Warden counted separately from skins.
-PASS: Checkboxes, expanded descriptions, remaining-only and empty state work.
-PASS: Mode switching preserves independent tracker state.
-PASS: Skin reset leaves belt/relic completion intact.
-PASS: Fresh document clears session-only skin progress.
-PASS: 390px fixture viewport has no horizontal overflow.
-PASS: Local installer embeds code, preserves original page, creates backup and prevents duplicate installation.
-PASS: No JavaScript page errors in representative integration fixture.
+PASS: 18/30/45 counts; relic artwork mappings and PNG fallback; portal badges; all trial sections; Dragon Egg six stages; operator/category/map filters; Warden separate count; remaining-only/empty state; independent mode state and reset; mobile width; fresh-session reset; no JavaScript page errors. Tested in Chromium with mocked image responses, not the live deployment.
