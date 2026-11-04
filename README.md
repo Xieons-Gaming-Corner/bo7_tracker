@@ -18,16 +18,16 @@ Visit the wiki for detailed instructions on each tracker:
 - [🎭 Operator Skins Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
 - [💎 Relics Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
 - [🏆 Wrestling Belt Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
-
 ## ✨ What’s Included?
 
-- [Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins) — Checklists for earnable Zombies and Endgame operator rewards.
-- [Relics](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics) — Track 30 relic unlocks, with map filters and expandable guides.
-- [Wrestling Belt](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt) — A dedicated checklist for all 18 weapon requirements during your run.
-- Super Easter Egg Toys — Coming soon!
-- Progress Indicators — Completion counts, percentages, and progress bars.
-- Helpful Filters — Hide completed entries to focus on what remains.
-- Mobile-Friendly Layout — Use the tracker on your phone, tablet, or computer.
+- ✅[Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins) — Checklists for earnable Zombies and Endgame operator rewards.
+- ✅[Relics](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics) — Track 30 relic unlocks, with map filters and expandable guides.
+- ✅[Wrestling Belt](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt) — A dedicated checklist for all 18 weapon requirements during your run.
+- ✅Super Easter Egg Toys — Added
+- ✅Progress Indicators — Addded
+- ✅Helpful Filters — Hide completed entries to focus on what remains.
+- ✅Mobile-Friendly Layout — Use the tracker on your phone, tablet, or computer.
+
 
 ## ✅ How to Use
 
@@ -69,7 +69,8 @@ Track your relic unlocks across five maps:
 | Paradox Junction | 3 |
 | Totenreich | 6 |
 | Kowakujo | 6 |
-| Total | 30 |
+| Mister Peaks | 1 |
+| Total | 31 |
 
 Expand a relic to view available information about:
 
@@ -85,6 +86,17 @@ Check off a relic after completing its trial and receiving the unlock—not just
 Map filters only change the entries displayed. Your relic progress still tracks the full collection of 30.
 
 [View the Relics Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
+
+## Super EE Toyas:
+| Map | Toy |
+|---|---:|
+| Tessie | AOTD |
+| Caltheris | Astra Malorum
+| The Twins Dolls | Paradox Junction |
+| The Guardian | Totenreich |
+| Z-Rez | Kowakoju |
+| Warden Doll | Rex Infernus|
+
 
 ## 🏆 Wrestling Belt Run Tracker
 
