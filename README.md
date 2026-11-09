@@ -18,6 +18,9 @@ Visit the wiki for detailed instructions on each tracker:
 - [🎭 Operator Skins Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
 - [💎 Relics Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
 - [🏆 Wrestling Belt Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
+- [❓ Dark Ops Calling Cards](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Dark-Ops-Calling-Card-Challenges)  
+- [4️⃣ Pack-A-Punch IV Special Abilities](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Pack%E2%80%90a%E2%80%90Punch-IV-Special-Abilities) 
+
 ## ✨ What’s Included?
 
 - ✅[Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins) — Checklists for earnable Zombies and Endgame operator rewards.
