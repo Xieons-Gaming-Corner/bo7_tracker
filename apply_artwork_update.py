@@ -2,6 +2,7 @@
 from pathlib import Path
 import shutil
 import re
+#gitignore
 
 root = Path(__file__).resolve().parent
 page = root / "index.html"

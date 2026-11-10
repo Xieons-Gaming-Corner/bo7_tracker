@@ -2,7 +2,7 @@
 from pathlib import Path
 import re
 import shutil
-
+#gitignore
 root = Path(__file__).resolve().parent
 page = root / "index.html"
 addon = root / "operator-skins.js"
