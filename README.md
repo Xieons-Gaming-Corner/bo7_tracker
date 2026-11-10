@@ -1,264 +1,131 @@
-# 🏆 XGC BO7 Zombies Tracker
+# XGC BO7 Zombies Tracker
 
-A free, mobile-friendly tracker from Xieon’s Gaming Corner for Black Ops 7 Zombies and Endgame.
+A free, mobile-friendly manual tracker from Xieon’s Gaming Corner for Black Ops 7 Zombies and Endgame.
 
-Track operator skin unlocks, explore relic guides, and keep your Wrestling Belt weapon progress organized—all in your browser.
+[Open the tracker](https://xieons-gaming-corner.github.io/bo7_tracker/) · [Browse the wiki](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki) · [Join Discord](https://discord.gg/Xieon)
 
-## 🚀 Start Tracking
+No account, installation, or application download is required.
 
-[Open the XGC BO7 Zombies Tracker](https://xieons-gaming-corner.github.io/bo7_tracker/)
+## Available Trackers
 
-No account, installation, or application download required.
+| Tracker | Features |
+|---|---|
+| Wrestling Belt | Independent checklist for 18 weapon requirements, with locations and instructions. |
+| All Relics | Relic checklist with map filters, equipped effects, portal prerequisites, trial restrictions, preparation, strategies, and reference links. |
+| Operator Skins | Earnable Zombies and Endgame operator rewards, with operator and category filters. |
+| Super Easter Egg Toys | Dedicated toy checklist. |
+| Zombies Dark Ops | Calling-card checklist with map/mode filters, remaining-only view, separate progress, mastery status, and optional expired beta entry. |
+| Special PaP 4 Abilities | Owner-supplied Cursed Mode weapon testing notes, with hide-weapon controls and Show all weapons. |
 
-## 📚 Wiki & Guides
+## How to Use
 
-Visit the wiki for detailed instructions on each tracker:
+1. Open the tracker and choose a mode.
+2. Read the entry’s requirements and any available guide.
+3. Complete the requirement in-game, then check off the entry.
+4. Use the available filters to focus on what remains.
 
-- [🏠 Wiki Home](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki)
-- [🎭 Operator Skins Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
-- [💎 Relics Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
-- [🏆 Wrestling Belt Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
-- [❓ Dark Ops Calling Cards](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Dark-Ops-Calling-Card-Challenges)  
-- [4️⃣ Pack-A-Punch IV Special Abilities](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Pack%E2%80%90a%E2%80%90Punch-IV-Special-Abilities) 
+The tracker is manual: it does not connect to your game, detect unlocks, verify qualifying kills, or inspect your loadout. Opening a guide or viewing artwork does not complete an entry.
 
-## ✨ What’s Included?
+## Zombies Dark Ops Calling Cards
 
-- ✅[Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins) — Checklists for earnable Zombies and Endgame operator rewards.
-- ✅[Relics](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics) — Track 30 relic unlocks, with map filters and expandable guides.
-- ✅[Wrestling Belt](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt) — A dedicated checklist for all 18 weapon requirements during your run.
-- ✅Super Easter Egg Toys — Added
-- ✅Progress Indicators — Addded
-- ✅Helpful Filters — Hide completed entries to focus on what remains.
-- ✅Mobile-Friendly Layout — Use the tracker on your phone, tablet, or computer.
+Use the Zombies Dark Ops Tracker to track calling-card challenges independently of the other checklists.
 
+- Filter by map or mode.
+- Enable Show remaining only to hide completed entries.
+- Include expired beta separately when needed; the beta entry is excluded from active progress.
+- View mastery status alongside overall checklist progress.
+- View matching calling-card artwork supplied in `assets/dark ops/`.
+- Reset Dark Ops without clearing the other trackers.
 
-## ✅ How to Use
+The artwork patch adds responsive images to matching entries and a Zombies Dark Ops Master image beside the mastery section. It preserves the existing checklist, filters, and progress logic. The expired beta entry has no matching asset in the uploaded collection. Artwork does not verify a challenge’s requirements or confirm an account unlock.
 
-1. Open the tracker and choose a checklist.
-2. Expand an entry to read its requirements or guide.
-3. Complete the requirement in-game.
-4. Check off the entry.
-5. Follow your progress and use the available filters to find what remains.
+Challenge names marked † are provisional. Chronomancer has conflicting community requirements; read the tracker’s notes and references before attempting it. Do not treat the community checklist as an independently verified in-game inventory.
 
-Opening a guide or clicking artwork does not mark an entry complete.
+[Dark Ops Wiki](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Dark-Ops-Calling-Card-Challenges) · [Updated wiki-ready guide](docs/wiki/Dark-Ops-Calling-Card-Challenges.md)
 
-The tracker is manual—it does not connect to your game or automatically detect unlocks.
+### Maintaining Dark Ops Artwork
 
-For more help, visit the [Tracker Wiki](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki).
+Keep artwork in `assets/dark ops/` and preserve filename capitalization. The patch maps the Mythic Cynic entry to the existing `MythicCyniv.webp` filename.
 
-## 🎭 Operator Skins
+To apply or reapply the artwork integration from a local checkout:
 
-Keep track of earnable operator rewards, including:
+```sh
+python apply_darkops_artwork.py
+```
 
-- BO6 Zombies Main Quest skins that carry forward into BO7.
-- Endgame No Fear skins.
-- Zombies Memento Mori crew skins.
-- Zombies Directed Mode reward skins.
-- The Warden operator unlock.
-- Endgame Glitch reward skins.
+The script updates `index.html` and, if present, `index (2).html`. It creates `.darkops-artwork.bak` backups and avoids duplicating its own injected additions. New challenge names or unmatched filenames may require updating the patch mapping.
 
-Read each entry’s requirements before starting. Some rewards require completing an encounter while playing as a specific operator.
+## Operator Skins
 
-[View the Operator Skins Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
+Track earnable operator rewards, including BO6 Zombies Main Quest skins that carry forward, Endgame No Fear skins, Zombies Memento Mori crew skins, Directed Mode rewards, the Warden unlock, and Endgame Glitch rewards. Read each entry carefully: some rewards require a specific operator.
 
-## 💎 Relic Collection & Guides
+[Operator Skins Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
 
-Track your relic unlocks across five maps:
+## Relics and Wrestling Belt
 
-| Map | Relics |
-|---|---:|
-| Ashes of the Damned | 9 |
-| Astra Malorum | 6 |
-| Paradox Junction | 3 |
-| Totenreich | 6 |
-| Kowakujo | 6 |
-| Mister Peaks | 1 |
-| Total | 31 |
+Expand relic entries for equipped effects, portal setup, trial objectives, restrictions, preparation, strategy, and reference walkthroughs. A relic’s equipped effect may differ from its trial modifier.
 
-Expand a relic to view available information about:
+Check off a relic only after completing its trial and receiving the unlock, not after opening its portal. Map filters change the visible entries, not the overall checklist total. Use the current app’s progress display for its collection total.
 
-- Its effect when equipped.
-- Unlock prerequisites.
-- Opening its portal.
-- Trial objectives and restrictions.
-- Recommended preparation and strategies.
-- Warnings, failure conditions, and reference walkthroughs.
+The Wrestling Belt weapon checklist and relic checklist are independent. Finishing the 18-weapon checklist does not automatically unlock the relic; complete the in-game trial as well. Follow the relevant guide for qualifying-kill precautions and trial-specific damage restrictions.
 
-Check off a relic after completing its trial and receiving the unlock—not just after opening its portal.
+[Relics Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics) · [Wrestling Belt Guide](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
 
-Map filters only change the entries displayed. Your relic progress still tracks the full collection of 30.
+## Special Pack-a-Punch IV Abilities
 
-[View the Relics Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
+The Special PaP 4 Abilities view contains owner-supplied Cursed Mode testing notes, not independently verified weapon documentation. Hide individual weapons to simplify the view, or use Show all weapons to restore them.
 
-## Super EE Toyas:
-| Map | Toy |
-|---|---:|
-| Tessie | AOTD |
-| Caltheris | Astra Malorum
-| The Twins Dolls | Paradox Junction |
-| The Guardian | Totenreich |
-| Z-Rez | Kowakoju |
-| Warden Doll | Rex Infernus|
+[Pack-a-Punch IV Wiki](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Pack%E2%80%90a%E2%80%90Punch-IV-Special-Abilities)
 
+## Progress and Resets
 
-## 🏆 Wrestling Belt Run Tracker
+Checkmarks are session-only and are not permanently saved.
 
-Keep your weapon progress organized during a Wrestling Belt attempt.
-
-- Track all 18 weapon requirements.
-- Expand weapon entries for locations and instructions.
-- Check off each weapon after earning its required qualifying kills.
-- Use the separate Wrestling Belt relic guide for trial rules and strategy.
-
-Completing the weapon checklist does not automatically unlock the relic. You must still finish its in-game trial.
-
-The weapon checklist and relic checklist are independent.
-
-[View the Wrestling Belt Wiki Guide →](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
-
-### ⚠️ Make Your Weapon Kills Count
-
-For the safest attempt, avoid effects that can finish off zombies instead of your current weapon:
-
-- Ammo Mod effects.
-- Wisp Tea companion kills.
-- Elemental Pop activations.
-- Electric Cherry reload damage.
-
-If another effect takes a kill, do not assume it counted toward the weapon requirement. Earn additional direct weapon kills before moving on.
-
-> These are precautions to reduce kill-count confusion—not a claim that buying a perk automatically fails the challenge.
->
-> Other relic trials may specifically require elemental damage, traps, Field Upgrades, or scorestreaks. Follow the guide for the trial you are attempting.
-
-## 🧸 Super Easter Egg Toys
-
-A dedicated Super Easter Egg Toy checklist is coming soon!
-
-## 🛠️ Managing Your Checklist
-
-### Show Only What Remains
-
-Enable “Show remaining only” to hide completed entries. Turn it off to see the full checklist again.
-
-In the relic tracker, you can combine this with a map filter.
-
-### Fix an Accidental Checkmark
-
-Uncheck the entry to remove its completion status.
-
-If it is hidden, turn off “Show remaining only” first.
-
-### Switch Between Trackers
-
-The Wrestling Belt and relic trackers keep their separate progress while the page remains open. Switching between them does not combine their checkmarks or automatically complete related entries.
-
-### Start a Fresh Attempt
-
-Use “Reset this tracker” and confirm to clear the selected checklist, including completed entries hidden by filters.
-
-Resetting one tracker does not reset the other.
-
-## ⏱️ Important: Progress Is Temporary
-
-**Your checkmarks are session-only and are not permanently saved.**
-
-- Keep the page open while tracking your run.
+- Switching modes keeps each checklist’s independent progress while the page remains open.
 - Refreshing or reopening the page clears progress.
-- Separate tabs and devices have independent checklists.
-- Progress does not sync with Discord.
-- There is no saved-progress recovery feature.
-- Returning through your browser’s back/forward navigation may reset the checklist.
+- Tabs and devices have independent sessions.
+- Progress does not sync with the game or Discord bot.
+- Reset controls clear the selected checklist, including completed entries hidden by filters.
 
-Take screenshots before leaving if you want a record of your progress. Do not rely on browser session restoration to preserve checkmarks.
+Take screenshots before leaving if you need a record. Do not rely on browser session restoration to preserve checkmarks.
 
-## 📖 A Note About the Guides
+## Troubleshooting
 
-These guides are community-written references. Game updates can change requirements, locations, or trial behavior.
+### An entry is missing
 
-- Follow in-game prompts and timers.
-- Read trial restrictions before activating a portal.
-- Remember that a relic’s equipped effect may differ from its trial modifier.
-- Treat recommended equipment as advice unless it is explicitly listed as required.
-- Check marked verification notes and linked walkthroughs when details are uncertain.
+Disable Show remaining only and clear the relevant filters. In Dark Ops, enable Include expired beta if you are looking for the beta entry.
 
-The tracker cannot verify qualifying kills, detect your loadout, or confirm an in-game unlock.
+### An image is missing
 
-## ❓ Frequently Asked Questions
+Check that the matching asset exists, its filename and capitalization match the artwork mapping, and the artwork patch has been applied. Requirements and checkboxes remain usable without artwork.
 
-### Is the tracker free?
+### A guide differs from the game
 
-Yes. No account or installation is required.
+These are community references. Follow current in-game prompts and timers, check uncertainty notes, and report the affected entry with screenshots or other evidence.
 
-### Where can I find detailed instructions?
+## Wiki Publishing
 
-Visit the [Wiki Home](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki), or open the guide for your checklist:
+The repository copy at `docs/wiki/Dark-Ops-Calling-Card-Challenges.md` is ready to paste into the GitHub Wiki page of the same name. Committing that file does not automatically publish it to GitHub Wiki; the wiki is maintained separately.
 
-- [Operator Skins](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Operator-Skins)
-- [Relics](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Relics)
-- [Wrestling Belt](https://github.com/Xieons-Gaming-Corner/bo7_tracker/wiki/Wrestling-Belt)
-
-### Does it track my game automatically?
-
-No. You check off your progress manually.
-
-### Will it remember my unlocks next time?
-
-No. Progress is temporary and clears when the page reloads.
-
-### Does finishing the weapon checklist unlock the Wrestling Belt?
-
-No. You must still complete the in-game relic trial.
-
-### Why are some entries missing?
-
-Check whether “Show remaining only” or a map filter is enabled.
-
-### Why does the relic progress total stay at 30 when I select a map?
-
-The map filter changes what you see, not the overall collection total.
-
-### Can I keep multiple guides open?
-
-Yes. You can expand several entries at once.
-
-### Why is an entry missing its picture?
-
-Some artwork may be unavailable. You can still use the entry’s checkbox and guide.
-
-### Can someone else change my checkmarks?
-
-No. Each visitor has an independent checklist session.
-
-### Does this connect to the XGC Discord tracker?
-
-No. The website and Discord bot trackers are separate.
-
-## 📜 License & Attribution
+## License and Attribution
 
 You may use, copy, modify, and redistribute this project’s source code, including in your own projects, provided that you credit Xieon’s Gaming Corner (XGC) as the original source.
 
 When sharing or redistributing the code or a modified version, include the following attribution in your README, documentation, or a visible credits section:
 
 > Based on the XGC BO7 Zombies Tracker by Xieon’s Gaming Corner (XGC).
-> Original source: [https://github.com/Xieons-Gaming-Corner/bo7_tracker](https://github.com/Xieons-Gaming-Corner/bo7_tracker)
+> Original source: https://github.com/Xieons-Gaming-Corner/bo7_tracker
 
 Keep this attribution and any existing license notices with redistributed copies of the source code. Clearly identify your modifications, and do not imply that XGC endorses your project.
 
 This permission applies only to original project code owned by XGC. Call of Duty names, artwork, game assets, and other third-party materials remain the property of their respective owners and are not licensed under these terms.
 
-## 💬 Help, Feedback & Community
+## Help, Feedback, and Community
 
-Found a missing reward, incorrect location, outdated requirement, or bug?
-
-Let us know which entry is affected and what needs correcting. Screenshots and error messages are helpful.
+Report missing rewards, incorrect requirements, outdated guides, or bugs with the affected entry’s name and relevant screenshots or error messages.
 
 [Join Xieon’s Gaming Corner on Discord](https://discord.gg/Xieon)
 
-[![Discord Widget](https://discord.com/api/guilds/829181609156411463/widget.png?style=banner2)](https://discord.gg/Xieon)
-
----
-
-Created by [@Xieon](https://github.com/Xieon), Lead Developer for [Xieon’s Gaming Corner](https://github.com/Xieons-Gaming-Corner), as a resource for the community.
+Created by [@Xieon](https://github.com/Xieon), Lead Developer for [Xieon’s Gaming Corner](https://github.com/Xieons-Gaming-Corner), as a community resource.
 
 Unofficial fan-made tool. Not affiliated with or endorsed by Activision.
